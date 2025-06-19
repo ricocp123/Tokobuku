@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Belajar Navigasi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .topbar {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      text-align: right;
+    }
+
+    .topbar button {
+      padding: 8px 15px;
+      margin-left: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .topbar .login {
+      background-color: blue;
+      color: white;
+    }
+  
+    .navbar {
+      background: blue;
+      padding: 15px 30px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-area img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo-text span:first-child {
+      color: white;
+    }
+
+    .logo-text span:last-child {
+      color: white;
+    }
+
+    .menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .menu li {
+      margin-left: 20px;
+    }
+
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .menu li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar utama -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo-area">
+        <img src="BOOK'S ROR.jpeg" alt="BOOK'S ROR" />
+        <div class="logo-text">
+          <span>BOOK'S</span><span>ROR</span>
+        </div>
+      </div>
+
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Buku.html">Buku</a></li>
+        <li><a href="Majalah.html">Majalah</a></li>
+        <li><a href="Koran.html">Koran</a></li>
+      </ul>
+    </div>
+  </nav>
+
+</body>
+</html>
